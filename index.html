@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Permissions-Policy" content="compute-pressure=*" />
     <title>Ardena — Pitch</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -240,21 +241,24 @@
               </p>
             </header>
             <div class="why-us__grid">
-              <article class="why-us__card">
+              <article class="why-us__card why-us__card--signal">
+                <span class="why-us__card-index" aria-hidden="true">01</span>
                 <h3 class="why-us__card-title">Built for this market</h3>
                 <p class="why-us__card-text">
                   Product and operations assume real African cities: how people pay, how trust is earned, and how
                   support scales when volume grows.
                 </p>
               </article>
-              <article class="why-us__card">
+              <article class="why-us__card why-us__card--mesh">
+                <span class="why-us__card-index" aria-hidden="true">02</span>
                 <h3 class="why-us__card-title">Two apps, one platform</h3>
                 <p class="why-us__card-text">
                   Hosts and renters each get a focused experience—so neither side inherits clutter, dead ends, or
                   compromises from a single “do everything” app.
                 </p>
               </article>
-              <article class="why-us__card">
+              <article class="why-us__card why-us__card--orbit">
+                <span class="why-us__card-index" aria-hidden="true">03</span>
                 <h3 class="why-us__card-title">Backed to scale</h3>
                 <p class="why-us__card-text">
                   Ardena Platforms Africa Ltd provides the structure to partner, comply, and grow—so the product can
@@ -285,7 +289,7 @@
         </section>
 
         <section
-          class="slide slide--solution"
+          class="slide slide--solution slide--why-now"
           id="slide-why-now"
           data-slide-index="5"
           aria-label="Why now"
@@ -300,27 +304,36 @@
                 ceding the category to informal workarounds or imports that ignore local reality.
               </p>
             </header>
-            <div class="solution__grid">
-              <article class="solution__card">
-                <h3 class="solution__card-title">Mobile-first economy</h3>
-                <p class="solution__card-text">
-                  Digital payments, identity checks, and notifications are everyday behavior—ready to underpin
-                  verified bookings and predictable handovers.
-                </p>
+            <div class="why-now__grid">
+              <article class="why-now__tile why-now__tile--rail">
+                <span class="why-now__mark" aria-hidden="true">I</span>
+                <div class="why-now__tile-copy">
+                  <h3 class="why-now__tile-title">Mobile-first economy</h3>
+                  <p class="why-now__tile-text">
+                    Digital payments, identity checks, and notifications are everyday behavior—ready to underpin
+                    verified bookings and predictable handovers.
+                  </p>
+                </div>
               </article>
-              <article class="solution__card">
-                <h3 class="solution__card-title">Supply meets demand</h3>
-                <p class="solution__card-text">
-                  Private vehicles sit underused while urban mobility demand rises; structured rental unlocks value for
-                  owners without forcing another car purchase.
-                </p>
+              <article class="why-now__tile why-now__tile--stack">
+                <span class="why-now__mark" aria-hidden="true">II</span>
+                <div class="why-now__tile-copy">
+                  <h3 class="why-now__tile-title">Supply meets demand</h3>
+                  <p class="why-now__tile-text">
+                    Private vehicles sit underused while urban mobility demand rises; structured rental unlocks value for
+                    owners without forcing another car purchase.
+                  </p>
+                </div>
               </article>
-              <article class="solution__card">
-                <h3 class="solution__card-title">Expectations have shifted</h3>
-                <p class="solution__card-text">
-                  People benchmark every service against the best apps they use. Rentals that still run on ad-hoc
-                  messages and unclear pricing lose to “good enough” alternatives.
-                </p>
+              <article class="why-now__tile why-now__tile--cut">
+                <span class="why-now__mark" aria-hidden="true">III</span>
+                <div class="why-now__tile-copy">
+                  <h3 class="why-now__tile-title">Expectations have shifted</h3>
+                  <p class="why-now__tile-text">
+                    People benchmark every service against the best apps they use. Rentals that still run on ad-hoc
+                    messages and unclear pricing lose to “good enough” alternatives.
+                  </p>
+                </div>
               </article>
             </div>
             <footer class="solution__footer">
@@ -776,7 +789,7 @@
                   <iframe
                     src="https://www.youtube.com/embed/lqHPeZJBu0k?modestbranding=1&amp;rel=0"
                     title="Ardena host application demo"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; compute-pressure"
                     allowfullscreen
                     loading="lazy"
                   ></iframe>
@@ -787,7 +800,7 @@
                   <iframe
                     src="https://www.youtube.com/embed/_2DB5DUfN2M?modestbranding=1&amp;rel=0"
                     title="Ardena client application demo"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; compute-pressure"
                     allowfullscreen
                     loading="lazy"
                   ></iframe>
